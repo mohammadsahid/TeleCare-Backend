@@ -1,0 +1,68 @@
+# ── Dependencies ──────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── Environment variables (NEVER commit secrets) ───────────────
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+
+# ── Logs ───────────────────────────────────────────────────────
+logs/
+*.log
+*.log.*
+
+# ── Build / dist output ────────────────────────────────────────
+dist/
+build/
+out/
+
+# ── File uploads (local storage, Multer temp files) ───────────
+uploads/
+tmp/
+temp/
+*.tmp
+
+# ── OS files ───────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Editor / IDE ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Package manager locks (keep package-lock.json, ignore yarn) 
+yarn.lock
+pnpm-lock.yaml
+
+# ── Runtime / process files ────────────────────────────────────
+*.pid
+*.seed
+*.pid.lock
+.node_repl_history
+
+# ── Test coverage ──────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ── Cloudinary / cloud credentials (extra safety) ─────────────
+cloudinary.config.js
+serviceAccountKey.json
+*.pem
+*.key
+*.cert
